@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "client",
-            "image": "546268815/multi-client",
+            "image": "546268815/multi-client:latest",
             "hostname": "client",
             "essential": false,
             "memory": 128
@@ -11,7 +11,7 @@
         },
         {
             "name": "server",
-            "image": "546268815/multi-server",
+            "image": "546268815/multi-server:latest",
             "hostname": "api",
             "essential": false,
             "memory": 128
@@ -19,7 +19,7 @@
         },
         {
             "name": "worker",
-            "image": "546268815/multi-worker",
+            "image": "546268815/multi-worker:latest",
             "hostname": "worker",
             "essential": false,
             "memory": 128
@@ -27,7 +27,7 @@
         },
         {
             "name": "nginx",
-            "image": "546268815/multi-nginx",
+            "image": "546268815/multi-nginx:latest",
             "hostname": "nginx",
             "essential": true,
             "memory": 128,
